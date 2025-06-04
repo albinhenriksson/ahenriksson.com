@@ -1,0 +1,37 @@
+{{/* layouts/index.html */}}
+
+{{ define "main" }}
+
+  {{/* ---- ABOUT-SEKTIONEN ---- */}}
+  {{ $about := site.GetPage "about" }}
+  {{ if $about }}
+    <section id="about" class="prose mx-auto my-12">
+      <h2>{{ $about.Title }}</h2>
+      {{ $about.Content }}
+    </section>
+  {{ end }}
+
+  {{/* ---- SENASTE BLOGGINLÄGGEN ---- */}}
+  <section id="blog" class="mx-auto my-12 max-w-3xl">
+    <h2 class="text-2xl font-bold mb-6">Latest Posts</h2>
+
+    {{/* Hämta alla “vanliga” sidor, filtrera på sektionen "posts" eller "blog",
+         sortera efter datum, och ta första 10. Anpassa efter din struktur. */}}
+    {{ range first 10 ( where site.RegularPages "Section" "in" (slice "posts" "blog") ) }}
+      <article class="mb-8">
+        <h3 class="text-xl font-semibold">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h3>
+        <p class="text-sm text-gray-500 mb-2">{{ .Date.Format "2006-01-02" }}</p>
+        <p>{{ .Summary | plainify }}</p>
+        <a class="text-blue-600 hover:underline" href="{{ .RelPermalink }}">Read more →</a>
+      </article>
+    {{ end }}
+
+    {{/* Länk till arkivet om du har många inlägg */}}
+    <div class="mt-10">
+      <a class="text-blue-600 hover:underline font-medium" href="/posts/">All posts →</a>
+    </div>
+  </section>
+
+{{ end }}

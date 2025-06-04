@@ -1,0 +1,41 @@
+baseURL = "/"
+title = "ahenriksson.com"
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+theme = 'HugoTeX'
+
+[params]
+  favicon = "favicon.ico"
+
+[[menu.main]]
+name = "main"
+url  = "main"
+weight = 5
+
+[pagination]
+  pagerSize = 3
+
+[Params.author]
+  name = "Albin Albinus Henriksson"
+  abstract = """
+   🔧 IT Systems Specialist | Security-first, Science-driven & Automation-focused
+  """
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "paraiso-dark"
+
+[Params]
+  # darkmode = true   # ← bort!
+  # lightmode = true  # ← sätt inte heller denna
+  #customCSS = ["css/theme-override.css"]   # add to existing list if you have one
