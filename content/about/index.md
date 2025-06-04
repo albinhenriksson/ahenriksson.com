@@ -8,7 +8,7 @@ draft = false
     weight = 30
 +++
 
-# 💻 Albin Henriksson — IT Systems Specialist
+# 💻 Who am I?
 
 ---
 

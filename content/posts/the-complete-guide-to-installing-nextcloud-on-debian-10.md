@@ -5,7 +5,7 @@ title = 'The Complete Guide to Installing Nextcloud on Debian 10'
 +++
 
 # The complete guide to installing Nextcloud on Debian 10
-*By Albin / 2020-02-24 – 2021-08-23*
+*By Albin / 2020-02-24*
 
 Today we’re installing the free and open source cloud platform **Nextcloud** on a machine running Debian 10. Nextcloud is, in a nutshell, a secure self-hosted replacement for Dropbox, Google Docs and Google Calendar. You should own your data – not the big companies.
 
