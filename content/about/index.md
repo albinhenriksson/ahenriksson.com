@@ -32,3 +32,5 @@ Formerly a **science teacher**, I also bring a knack for **clear and effective c
 - 📧 **E-mail:** [albin@ahenriksson.com](mailto:albin@ahenriksson.com)
 - 🔗 **GitHub:** [github.com/albinhenriksson](https://github.com/albinhenriksson)
 - 🔗 **LinkedIn:** [linkedin.com/in/albinhenriksson](https://www.linkedin.com/in/albinhenriksson)
+- 📚 **CV (Git):** [github.com/albinhenriksson/cv](https://github.com/albinhenriksson/cv)
+- 📚 **CV (PDF):** [ahenriksson_curriculum_vitae.pdf](https://github.com/albinhenriksson/cv/blob/master/latex/ahenriksson_curriculum_vitae.pdf)

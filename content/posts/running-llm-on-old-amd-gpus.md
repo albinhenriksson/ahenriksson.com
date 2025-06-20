@@ -1,3 +1,9 @@
++++
+date = '2025-06-20T02:18:28Z'
+draft = false
+title = 'Running Local LLMs (“AI”) on Old AMD GPUs and Laptop iGPUs (Arch Linux Guide)'
++++
+
 # Running Local LLMs (“AI”) on Old AMD GPUs and Laptop iGPUs (Arch Linux Guide)
 
 A straightforward guide on how to compile **llama.cpp** with Vulkan support on Arch Linux (and Arch-based distros like CachyOS, EndeavourOS, etc). This lets you run models on old, officially unsupported AMD cards and Intel iGPUs.
@@ -182,7 +188,7 @@ You should see a big log dump ending in something like:
 main: server is listening on http://0.0.0.0:28080 - starting the main loop
 ```
 
-![Screenshot](hello_is_everything_working.png)
+![Screenshot](/images/hello_is_everything_working.png)
 
 And voilà – everything should work!
 
@@ -284,4 +290,3 @@ tail -f /var/log/llama-server.log
 ## Conclusion
 
 Congratulations! You now have the power of LLMs running on “crap” hardware. Go do something weird.
-
