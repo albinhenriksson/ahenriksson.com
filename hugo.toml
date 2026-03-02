@@ -20,7 +20,7 @@ weight = 5
 [Params.author]
   name = "Albin Albinus Henriksson"
   abstract = """
-   🔧 IT Systems Specialist | Security-first, Science-driven & Automation-focused
+   IT engineer with a strong background in mathematics and theoretical physics.
   """
 
 [taxonomies]
