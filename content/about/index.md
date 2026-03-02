@@ -8,26 +8,26 @@ draft = false
     weight = 30
 +++
 
-# 💻 Who am I?
+# 💻 About me
+
+I’m **Albin Henriksson** — an **IT engineer** with a strong background in **mathematics** and **theoretical physics**.
+
+I’ve spent the last **15+ years** building, breaking, fixing, and scaling systems — from obsessive homelab setups to real-world infrastructure where uptime actually matters. I like work that sits at the intersection of **reliability, security, and performance**, and I’m at my best when I get to understand the whole system end-to-end.
+
+What I typically do (and enjoy doing):
+
+- 🛠 **Linux / Unix systems engineering** (servers, networks, storage, automation)
+- 🧱 **Infrastructure & platform work** (virtualization, containers, IaC-ish workflows)
+- 🔐 **Security-minded architecture** (hardening, least privilege, sane backups)
+- ⚙️ **DevOps practices** (CI/CD, observability, “make it boring to operate”)
+
+Before going full-time IT, I worked as a **science teacher**, which left me with one genuinely useful superpower: I’m good at explaining messy technical stuff in plain language — without dumbing it down.
+
+If you think I’d be a good fit for your team, feel free to reach out.
 
 ---
 
-> *"Experienced and versatile IT Systems Specialist with a strong academic background in physics and mathematics."*
-
-With over **15 years** of hands-on experience in **Linux and Unix-based systems**, I’ve worked on everything from personal homelabs to complex **enterprise infrastructure**. My strengths lie in:
-
-- 🛠 **Systems Administration**
-- 🧱 **Infrastructure Engineering**
-- 🔐 **Cybersecurity**
-- ⚙️ **DevOps Methodologies**
-
-I take pride in **understanding systems holistically**, spotting bottlenecks, and designing **secure, scalable, and performant** solutions.
-
-Formerly a **science teacher**, I also bring a knack for **clear and effective communication** — translating complex technical ideas into something anyone can understand.
-
----
-
-## 📬 Contact Me
+## 📬 Contact
 
 - 📧 **E-mail:** [albin@ahenriksson.com](mailto:albin@ahenriksson.com)
 - 🔗 **GitHub:** [github.com/albinhenriksson](https://github.com/albinhenriksson)
