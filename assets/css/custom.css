@@ -1,0 +1,35 @@
+/* assets/css/custom.css
+   HugoTeX loads this automatically — use it for overrides.
+   Goal: force *everything* to Ubuntu Mono.
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap");
+
+:root {
+    --ah-font:
+        "Ubuntu Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
+}
+
+/* Nuclear option: all elements, including headings, buttons, forms, etc. */
+html,
+body,
+body * {
+    font-family: var(--ah-font) !important;
+}
+
+/* Some themes set these explicitly */
+pre,
+code,
+kbd,
+samp {
+    font-family: var(--ah-font) !important;
+}
+
+/* If the theme uses LaTeX.css variables, override them too */
+:root {
+    --font-family: var(--ah-font);
+    --body-font: var(--ah-font);
+    --heading-font: var(--ah-font);
+    --mono-font: var(--ah-font);
+}
